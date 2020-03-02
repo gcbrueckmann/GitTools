@@ -62,7 +62,7 @@ for BRANCH in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do
   if [ "${LIST_ONLY}" -eq 1 ]; then
     echo "${BRANCH}"
   else
-    if [ "${BRANCH}" -eq "${CURRENT_BRANCH}" ]; then
+    if [ "${BRANCH}" == "${CURRENT_BRANCH}" ]; then
       echo "${BRANCH} needs purging, but cannot be deleted while it is the current branch."
     else
       DELETE_OPTIONS="d"
