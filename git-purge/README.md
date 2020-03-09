@@ -6,9 +6,10 @@ Automatically delete local branches when their remote tracking branches have gon
 ## Options
 
 | Option | Description |
-| -f | Allow deleting branches irrespective of their merged status. |
-| -l | List branches eligible for purging, but do not purge them. |
-| -h | Show this help. |
+|-|-|
+| `-f` | Allow deleting branches irrespective of their merged status. |
+| `-l` | List branches eligible for purging, but do not purge them. |
+| `-h` | Show this help. |
 
 ## Examples
 ### Listing Candidate Branches
