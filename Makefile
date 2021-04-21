@@ -5,4 +5,4 @@ THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)
 BIN_DIR := $(HOME)/bin
 
 symlinks:
-	ln -sf $(THIS_DIR)/git-purge/git-purge.sh $(BIN_DIR)/git-purge.lnk
+	ln -sf $(THIS_DIR)/git-purge/git-purge.sh $(BIN_DIR)/git-purge
